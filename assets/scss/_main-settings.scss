@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: $black;
+}
+
+h1, h2, h3, h4, .font_title {
+  font-family: $fontRaleway;
+  font-style: normal;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  @include screen(tablet) {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  @include screen(phone) {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+  @include screen(tablet) {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height, or 150% */
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+}
+
+ul {
+  list-style: none !important;
+}
+
+p, span, label {
+  font-family: $fontRoboto;
+  color: $black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 133% */
+}
+
+hr {
+  background-color: $paleGrey;
+  height: 3px;
+}
+
+button, a, input[type='submit'], .btn {
+  font-family: $fontRoboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  @include btn-link-transition;
+}
+
+button, input[type='submit'], .btn {
+  background-color: $blue;
+  padding: 9px $margin32;
+  color: $white;
+  outline: none;
+  border: none;
+  box-shadow: 0 3px 20px rgba(46, 51, 63, 0.35);
+  border-radius: 3px;
+
+  &:hover {
+    background-color: $blueHover;
+    cursor: pointer;
+    box-shadow: 0 2px 11px rgba(46, 51, 63, 0.5);
+  }
+}
+
+a, a:visited {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $blueHover;
+  }
+}
+
+a.empty-btn {
+  padding: 9px 16px;
+  border-radius: 3px;
+
+  :hover {
+    background: #EDF5FF;
+  }
+}
+
+a.btn_black{
+  background-color: $black;
+  color: $white;
+  padding: 9px 32px;
+  @include btn-link-transition;
+}
+
+.font_title {
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+}
+
+.font_navigation {
+  font-family: $fontUbuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.wrapper {
+  max-width: 1588px;
+  margin: 0 auto;
+}
+
+.wrapper_mod {
+  max-width: 778px;
+  margin: 0 auto;
+}
+
+.wrapper_archive {
+  max-width: 1048px;
+  margin: 0 auto;
+}
+
+.form-wrapper {
+  width: 778px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1920px) {
+  .wrapper {
+    max-width: 1552px;
+  }
+  .wrapper_archive {
+    max-width: 1264px;
+  }
+  .wrapper_mod {
+    max-width: 760px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .wrapper {
+    max-width: 1312px;
+  }
+  .form-wrapper {
+    max-width: 45.238vw;
+  }
+  .wrapper_archive {
+    width: 864px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .wrapper {
+    max-width: 1088px;
+  }
+  .form-wrapper {
+    max-width: 640px;
+  }
+  .wrapper_mod {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper, .wrapper_mod, .wrapper_archive {
+    max-width: 706px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper, .wrapper_mod, .wrapper_archive, .form-wrapper {
+    max-width: 93%;
+  }
+}
+

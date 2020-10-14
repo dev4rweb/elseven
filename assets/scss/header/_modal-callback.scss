@@ -1,0 +1,160 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background: $white;
+  box-shadow: 0 24px 128px rgba(18, 27, 33, 0.4);
+  border-radius: 3px;
+  margin: 10% auto;
+  padding: 64px;
+  border: 1px solid #888;
+  width: 506px;
+  height: 518px;
+  animation-name: animate-top;
+  animation-duration: 0.4s;
+
+  form {
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      text-align: center;
+      font-weight: 700;
+    }
+
+    label {
+      line-height: 20px;
+
+      input[type='text'], input[type='tel'] {
+        margin-top: 12px;
+        height: 42px;
+        width: 100%;
+        border: 1px solid $grey;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 3px;
+        font-family: $fontRoboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: $black;
+
+        &:hover, &:focus, &:active {
+          background: linear-gradient(0deg, rgba(47, 128, 237, 0.05), rgba(47, 128, 237, 0.05)), #FFFFFF;
+          outline: none;
+          border: 2px solid $blue;
+        }
+      }
+    }
+
+    .modal-callback-checkbox {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      input[type='checkbox']{
+        width: 24px;
+        height: 24px;
+        margin-left: 5px;
+      }
+      /* When the checkbox is checked, add a blue background */
+      input:checked ~ .checkmark {
+        background-color: $blue;
+      }
+      p {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 20px;
+        span{
+          margin-left: 0;
+        }
+        a{
+          font-size: 14px;
+          line-height: 20px;
+          color: $blue;
+        }
+      }
+    }
+
+
+  }
+}
+
+
+/* The Close Button */
+.close-modal-callback {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  float: right;
+  background-image: url(../../assets/images/icons/close.svg);
+  -webkit-background-size: 14px;
+  background-size: 14px;
+  width: 14px;
+  height: 14px;
+  margin-left: 21px;
+  cursor: pointer;
+
+  &:hover {
+    background-image: url(../../assets/images/icons/close_hover.svg);
+  }
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Убираем сообщение response в форме*/
+.wpcf7-response-output{
+  display: none !important;
+}
+
+/*Response modal*/
+#modalCallbackResponse {
+  .modal-content{
+    width: 548px;
+    height: 256px;
+    h2{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+      margin-top: 32px;
+    }
+  }
+}
+
+
+/* Add Animation */
+@keyframes animate-top {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
+}

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d97c8a4e-8a21-49e0-b5e2-2ee470d708f3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hWUQCI5A1z8AyuI43VLQng34DX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/scss/header" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\images\icons" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\woocommerce" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\fonts\font-awesome" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\css" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\includes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\images\icons" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\images" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\scss\header" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\scss\main_page" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\woocommerce" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="our_shipments.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/template-parts/main-page/our_shipments.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.our_shipments.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d97c8a4e-8a21-49e0-b5e2-2ee470d708f3" name="Default Changelist" comment="" />
+      <created>1600126323736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600126323736</updated>
+      <workItem from="1600126325044" duration="1510000" />
+      <workItem from="1600128042094" duration="10572000" />
+      <workItem from="1600172201501" duration="4627000" />
+      <workItem from="1600179920982" duration="2915000" />
+      <workItem from="1600207165090" duration="12217000" />
+      <workItem from="1600258784546" duration="522000" />
+      <workItem from="1600262283589" duration="2200000" />
+      <workItem from="1600266374568" duration="471000" />
+      <workItem from="1600344593695" duration="613000" />
+      <workItem from="1600357200776" duration="42000" />
+      <workItem from="1600378279143" duration="585000" />
+      <workItem from="1600382438139" duration="14105000" />
+      <workItem from="1600432803355" duration="473000" />
+      <workItem from="1600455015363" duration="16950000" />
+      <workItem from="1600523983823" duration="97000" />
+      <workItem from="1600668879776" duration="166000" />
+      <workItem from="1600671078097" duration="6213000" />
+      <workItem from="1600688809318" duration="670000" />
+      <workItem from="1600693159400" duration="1195000" />
+      <workItem from="1600699625210" duration="3870000" />
+      <workItem from="1600730085551" duration="13783000" />
+      <workItem from="1600781321487" duration="32000" />
+      <workItem from="1600803934951" duration="15811000" />
+      <workItem from="1600906572410" duration="2334000" />
+      <workItem from="1600910132598" duration="3726000" />
+      <workItem from="1600914138181" duration="6757000" />
+      <workItem from="1600922625979" duration="1822000" />
+      <workItem from="1600940558046" duration="1381000" />
+      <workItem from="1600950547728" duration="6901000" />
+      <workItem from="1601000056492" duration="10874000" />
+      <workItem from="1601013261412" duration="11457000" />
+      <workItem from="1601036478854" duration="2196000" />
+      <workItem from="1601083535904" duration="11158000" />
+      <workItem from="1601129199436" duration="4118000" />
+      <workItem from="1601169176915" duration="16306000" />
+      <workItem from="1601215481030" duration="2136000" />
+      <workItem from="1601242008911" duration="1774000" />
+      <workItem from="1601300268228" duration="4400000" />
+      <workItem from="1601349117526" duration="4200000" />
+      <workItem from="1601366242447" duration="4186000" />
+      <workItem from="1601382481541" duration="10008000" />
+      <workItem from="1601426578242" duration="7815000" />
+      <workItem from="1601440697032" duration="2445000" />
+      <workItem from="1601467214614" duration="9572000" />
+      <workItem from="1601485384977" duration="2220000" />
+      <workItem from="1601523122260" duration="5148000" />
+      <workItem from="1601537568428" duration="24001000" />
+      <workItem from="1601623453007" duration="5801000" />
+      <workItem from="1601635184320" duration="3933000" />
+      <workItem from="1601648903053" duration="5296000" />
+      <workItem from="1601675839605" duration="11121000" />
+      <workItem from="1601788197204" duration="8366000" />
+      <workItem from="1601843398852" duration="11213000" />
+      <workItem from="1601893457100" duration="601000" />
+      <workItem from="1601905688106" duration="1785000" />
+      <workItem from="1601942500183" duration="7440000" />
+      <workItem from="1601964955238" duration="698000" />
+      <workItem from="1601971997819" duration="16170000" />
+      <workItem from="1602041840233" duration="603000" />
+      <workItem from="1602049703012" duration="24548000" />
+      <workItem from="1602113819473" duration="4979000" />
+      <workItem from="1602143526329" duration="152000" />
+      <workItem from="1602147048837" duration="866000" />
+      <workItem from="1602170260714" duration="665000" />
+      <workItem from="1602199832743" duration="1288000" />
+      <workItem from="1602351650347" duration="1110000" />
+      <workItem from="1602377589189" duration="4038000" />
+      <workItem from="1602389219520" duration="4731000" />
+      <workItem from="1602401134858" duration="8728000" />
+      <workItem from="1602419422073" duration="616000" />
+      <workItem from="1602557639448" duration="1483000" />
+      <workItem from="1602647979655" duration="2745000" />
+      <workItem from="1602657223794" duration="7934000" />
+      <workItem from="1602684163376" duration="2648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/elseven" />
+    </ignored-roots>
+  </component>
+</project>

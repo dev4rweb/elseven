@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/raleway/Raleway-Regular.ttf');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url('../fonts/ubuntu/Ubuntu-R.ttf');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+    font-display: fallback;
+}
+
+:root {
+    --black: #1F2528;
+    --white: #ffffff;
+    --yellow: #FFC83C;
+    --blue: #2F80ED;
+    --darkBlue: #232731;
+    --lightBlue: #B7CFEF;
+    --blueHover: #1868D5;
+    --paleGrey: #EAEFF7;
+    --grey: #98A0AA;
+    --fontColor: #C4C4C4;
+    --fontRaleway: Raleway, serif;
+    --fontUbuntu: Ubuntu, serif;
+    --fontRoboto: Roboto, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, .font_title {
+    font-family: var(--fontRaleway);
+    font-style: normal;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 48px;
+    /* or 150% */
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height, or 150% */
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+}
+
+p {
+    font-family: var(--fontRoboto);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 133% */
+}
+
+.font_title {
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+}
+
+.font_navigation {
+    font-family: var(--fontUbuntu);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wrapper {
+    max-width: 1588px;
+    margin: 0 auto;
+}
+
+.top_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 64px;
+    background-color: var(--white);
+    align-items: center;
+}
+
+p.logo {
+    color: var(--black);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.logo {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 430px;
+    margin-bottom: 0;
+}
+
+.logo:before {
+    content: url("../images/logo.png");
+    margin-right: 32px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.basket_box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.basket {
+    background: url("../images/icons/basket.svg") no-repeat center;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.basket:hover {
+    background: url("../images/icons/basket_hover.svg") no-repeat center;
+}
+
+.nav {
+    background-color: var(--darkBlue);
+    width: 100%;
+    height: 48px;
+}
+
+.nav ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-right: 32px;
+}
+

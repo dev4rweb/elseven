@@ -1,0 +1,148 @@
+.our_shipments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-top: 96px;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .shipments_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .shipment_cart {
+      position: relative;
+      width: 525px;
+      height: 300px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(196, 196, 196, 0) 100%);
+
+      .ship_box {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        backface-visibility: hidden;
+        @include btn-link-transition;
+
+        .img {
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          -webkit-background-size: cover;
+          background-size: cover;
+        }
+
+        .wrap_text {
+          position: absolute;
+          color: $white;
+          bottom: 16px;
+          left: 23px;
+          right: 23px;
+
+          p {
+            margin-bottom: 0;
+            color: $white;
+          }
+        }
+      }
+
+      .ship-middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        right: 0;
+        top: 44%;
+        @include btn-link-transition;
+
+        a {
+          background-color: $black;
+          color: white;
+          padding: 9px 32px;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-right: 4px;
+      }
+
+      &:hover .ship_box {
+        opacity: .3;
+      }
+
+      &:hover .ship-middle {
+        opacity: 1;
+      }
+    }
+  }
+
+  .all_shipments {
+    margin-top: 73px;
+    margin-bottom: 105px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .our_shipments {
+    .shipments_container {
+      .shipment_cart {
+        width: 435px;
+        height: 247px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .our_shipments {
+    .shipments_container {
+      .shipment_cart {
+        width: 360px;
+        height: 204px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .our_shipments {
+    .shipments_container {
+      flex-direction: column;
+      width: 100%;
+
+      .shipment_cart {
+        width: 100%;
+        height: 180px;
+        margin-bottom: 12px;
+
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .our_shipments {
+    .shipments_container {
+      flex-direction: column;
+      width: 100%;
+
+      .shipment_cart {
+        width: 100%;
+        height: 180px;
+        margin-bottom: 12px;
+
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

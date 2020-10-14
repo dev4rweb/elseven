@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/raleway/Raleway-Medium.ttf');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('../fonts/ubuntu/Ubuntu-M.ttf');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/roboto/Roboto-Medium.ttf');
+  font-display: fallback;
+}
+
+$black: #1F2528;
+$white: #ffffff;
+$yellow: #FBDA75;
+$yellowAdvance: #F2C94C;
+$blue: #2F80ED;
+$darkBlue: #232731;
+$lightBlue: #B7CFEF;
+$blueHover: #1868D4;
+$paleGrey: #EAEFF7;
+$grey: #98A0AA;
+$fontColor: #C4C4C4;
+$lightGreen: #ECFFF0;
+$green: #219653;
+$orange: #EE7E1A;
+
+$fontRaleway: Raleway, serif;
+$fontUbuntu: Ubuntu, serif;
+$fontRoboto: Roboto, serif;
+
+$margin32: 1.667vw;
+$margin29: 1.510vw;
+
+/*media screens*/
+$large: 1920px;
+$desktop: 1680px;
+$laptop: 1440px;
+$tablet: 1200px;
+$phone: 768px;
+
+@mixin screen($media) {
+  @if ($media == big) {
+    @media screen and (max-width: $large) {
+      @content;
+    }
+  } @else if ($media == desktop) {
+    @media screen and (max-width: $desktop) {
+      @content;
+    }
+  } @else if ($media == laptop) {
+    @media screen and (max-width: $laptop) {
+      @content;
+    }
+  } @else if ($media == tablet) {
+    @media screen and (max-width: $tablet) {
+      @content;
+    }
+  } @else if ($media == phone) {
+    @media screen and (max-width: $phone) {
+      @content;
+    }
+  }
+}
+
+@mixin btn-link-transition($prop: all, $duration: .3s) {
+  -webkit-transition: $prop $duration;
+  -moz-transition: $prop $duration;
+  -ms-transition: $prop $duration;
+  -o-transition: $prop $duration;
+  transition: $prop $duration;
+}

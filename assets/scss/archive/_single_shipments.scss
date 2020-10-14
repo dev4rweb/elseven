@@ -1,0 +1,54 @@
+.category-shipments {
+  .single_shipments {
+    .entry-header {
+      margin-bottom: 36px;
+
+      .entry-title {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 4px;
+      }
+
+      .entry-date {
+        font-family: $fontRoboto;
+        color: $grey;
+      }
+    }
+
+    .post-thumbnail {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .category-shipments {
+    .single_shipments {
+      .entry-header {
+        .entry-title {
+          font-size: 28px;
+          line-height: 42px;
+        }
+      }
+
+      .post-thumbnail {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .category-shipments {
+    .single_shipments {
+      .entry-header {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

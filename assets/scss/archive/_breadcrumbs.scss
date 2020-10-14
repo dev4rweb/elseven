@@ -1,0 +1,54 @@
+.breadcrumb-single-container {
+  margin-top: 64px;
+  background-color: $paleGrey;
+
+  .wrapper_archive {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-bottom: 0;
+
+
+        img {
+          position: relative;
+          margin-bottom: -3px;
+          width: 15px;
+          height: 15px;
+          margin-left: 6px;
+          margin-right: 6px;
+        }
+
+        span {
+          color: $grey;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .breadcrumb-single-container {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumb-single-container {
+    margin-top: 32px;
+
+    .breadcrumb {
+      p, span {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}

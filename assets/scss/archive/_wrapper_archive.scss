@@ -1,0 +1,33 @@
+.wrapper_archive {
+  header.page-header {
+    h1.page-title {
+      display: none;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  h2 {
+    a, a:visited {
+      font-family: $fontRaleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 30px;
+      color: $black;
+    }
+  }
+
+  span.entry-date {
+    font-family: $fontUbuntu;
+    color: $grey;
+  }
+
+  .archive_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

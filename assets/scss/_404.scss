@@ -1,0 +1,61 @@
+.error-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2, p {
+    text-align: center;
+    max-width: 508px;
+  }
+
+  span {
+    font-family: $fontRaleway;
+    font-weight: 700;
+    line-height: 100px;
+    font-size: 90px;
+    color: $lightBlue;
+    margin-top: 80px;
+  }
+
+  .page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a:visited {
+    color: $white;
+  }
+
+  .btn {
+    margin-top: 57px;
+  }
+
+  .empty-btn {
+    margin-top: 34px;
+    margin-bottom: 108px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .error-404 {
+    span {
+      margin-top: 32px;
+      font-weight: bold;
+      font-size: 80px;
+      line-height: 90px;
+    }
+
+    h2 {
+      margin-top: 12px;
+    }
+
+    .btn {
+      margin-top: 32px;
+    }
+
+    .empty-btn {
+      margin-top: 16px;
+    }
+  }
+}

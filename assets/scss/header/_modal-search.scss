@@ -1,0 +1,201 @@
+.search {
+  position: relative;
+
+  .search-button{
+    background-image: url(../../assets/images/icons/search.svg);
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    &:hover {
+      background-image: url(../../assets/images/icons/search_hover.svg);
+      cursor: pointer;
+    }
+  }
+
+  .search-form {
+    position: absolute;
+    left: -440px;
+    top: -11px;
+    background-color: #fff;
+    //display: none;
+    width: 0;
+    overflow: hidden;
+
+    @include btn-link-transition;
+
+    form{
+      display: flex;
+      align-items: center;
+      input[type="text"] {
+
+        input {
+          font-family: $fontRoboto;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        color: $grey;
+        font-weight: 400;
+        padding: 9px 12px;
+        width: 267px;
+        height: 42px;
+        border: 1px solid $grey;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        margin-right: -2px;
+      }
+      input[type="submit"] {
+        width: 111px;
+        height: 42px;
+        color: $white;
+        font-weight: 500;
+        padding: 11px 32px;
+        background: $black;
+        box-shadow: 0 3px 20px rgba(46, 51, 63, 0.35);
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      span.close {
+        background-image: url(../../assets/images/icons/close.svg);
+        -webkit-background-size: 14px;
+        background-size: 14px;
+        width: 14px;
+        height: 14px;
+        margin-left: 21px;
+        cursor: pointer;
+        &:hover{
+          background-image: url(../../assets/images/icons/close_hover.svg);
+        }
+      }
+    }
+
+    .title-search{
+      a{
+
+        font-family: $fontRoboto;
+        font-size: 16px;
+        line-height: 24px;
+        color: $grey;
+        font-weight: 400;
+      }
+      padding: 9px 12px;
+      height: 42px;
+      border: 1px solid $grey;
+      border-top: none;
+      @include btn-link-transition;
+      &:hover {
+        a{
+          color: $white;
+        }
+        background-color: $blue;
+        cursor: pointer;
+      }
+    }
+    .title-search:first-child{
+      border: 1px solid $grey;
+    }
+    .title-search-nothing, .search-result-close{
+      font-family: $fontRoboto;
+      font-size: 16px;
+      line-height: 24px;
+      color: $grey;
+      font-weight: 400;
+      padding: 9px 12px;
+      height: 42px;
+      border: 1px solid $grey;
+    }
+    .search-result-close{
+      opacity: 0;
+      font-weight: lighter;
+      position: absolute;
+      top: 2px;
+      right: 144px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 1680px){
+  .search {
+    .search-form {
+      left: -995px;
+      form {
+        input[type="text"]{
+          width: 870px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .search {
+    .search-form {
+      left: -775px;
+      form {
+        input[type="text"]{
+          width: 640px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+  .search {
+    .search-form {
+      left: -400px;
+      height: 70px;
+      top: -17px;
+      padding-top: 6px;
+      form {
+        input[type="text"]{
+          width: 270px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .search {
+    position: static;
+    .search-form {
+      display: none;
+      z-index: 50;
+      background-color: #fff;
+      left: 0;
+      right: 0;
+      width: 106%;
+      top: 54px;
+      height: 68px;
+      padding: 13px 24px;
+      box-shadow: 0 1px 20px rgba(0, 0, 0, 0.25);
+      form {
+        input[type="text"]{
+          width: 67%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 475px){
+  .search .search-form {
+    form input[type="text"]{
+      width: 54%;
+    }
+  }
+}
+@media screen and (max-width: 330px){
+  .search .search-form {
+    form input[type="text"]{
+      width: 46%;
+    }
+  }
+}
