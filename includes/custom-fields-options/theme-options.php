@@ -41,15 +41,12 @@ Container::make('theme_options', 'Настройки темы')
             ->set_width(100),
         Field::make('text', 'el_main_page_heading_advantage_one', 'Преимущества 1')
             ->set_attribute('placeholder', 'Собственное производство')
-            ->set_default_value('Собственное производство')
             ->set_width(100),
         Field::make('text', 'el_main_page_heading_advantage_two', 'Преимущества 2')
             ->set_attribute('placeholder', 'Антипригарное покрытие')
-            ->set_default_value('Антипригарное покрытие')
             ->set_width(100),
         Field::make('text', 'el_main_page_heading_advantage_three', 'Преимущества 3')
             ->set_attribute('placeholder', 'Индивидуальный подбор форм')
-            ->set_default_value('Индивидуальный подбор форм')
             ->set_width(100),
         Field::make('complex', 'el_main_page_slider', 'Слайдер')
             ->add_fields(array(

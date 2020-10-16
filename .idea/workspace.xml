@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d97c8a4e-8a21-49e0-b5e2-2ee470d708f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/modal_contact_forms7.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/modal_contact_forms7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/.sass-cache/a6a370a65e807da2092b893da6db337f97048ca8/_callback_form.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/a6a370a65e807da2092b893da6db337f97048ca8/_callback_form.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_callback_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_callback_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/custom-fields-options/theme-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/custom-fields-options/theme-options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/main-page/heading.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/main-page/heading.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +169,8 @@
       <workItem from="1602684163376" duration="2648000" />
       <workItem from="1602765080075" duration="1495000" />
       <workItem from="1602774537565" duration="9607000" />
-      <workItem from="1602809072460" duration="603000" />
+      <workItem from="1602809072460" duration="1042000" />
+      <workItem from="1602812223422" duration="823000" />
     </task>
     <servers />
   </component>
