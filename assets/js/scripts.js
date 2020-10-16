@@ -1,9 +1,20 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed main-script');
-    const mainTag = document.getElementsByTagName('main')[0];
-    mainTag.addEventListener('click', () => {
-        closeNav();
-    });
+
+
+    let mediaWidth = window.matchMedia("(max-width: 768px)");
+
+    function mediaListener(mediaWidth) {
+        if (mediaWidth.matches) {
+            const mainTag = document.getElementsByTagName('main')[0];
+            mainTag.addEventListener('click', () => {
+                closeNav();
+            });
+        }
+    }
+
+    mediaListener(mediaWidth);
+    mediaWidth.addListener(mediaListener);
 });
 
 /*Header navigation start*/

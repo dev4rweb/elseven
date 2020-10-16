@@ -1078,10 +1078,15 @@ footer {
       line-height: 24px;
       color: black;
       background: linear-gradient(0deg, rgba(47, 128, 237, 0.05), rgba(47, 128, 237, 0.05)), #FFFFFF;
-      /* Blue 1 */
-      border: 2px solid #2F80ED;
+      border: 2px solid #98A0AA;
       box-sizing: border-box;
       border-radius: 3px; }
+      .callback_form div.wpcf7 input[type=text]:active, .callback_form div.wpcf7 input[type=tel]:active, .callback_form div.wpcf7 input[type=email]:active, .callback_form div.wpcf7 textarea:active {
+        outline: none !important;
+        border: 2px solid #2F80ED; }
+      .callback_form div.wpcf7 input[type=text]:focus, .callback_form div.wpcf7 input[type=tel]:focus, .callback_form div.wpcf7 input[type=email]:focus, .callback_form div.wpcf7 textarea:focus {
+        outline: none !important;
+        border: 2px solid #2F80ED; }
     .callback_form div.wpcf7 textarea {
       height: 84px;
       resize: none; }
@@ -1120,6 +1125,14 @@ footer {
     color: #1F2528; }
   .light div.wpcf7 p label {
     color: #1F2528; }
+
+span.wpcf7-not-valid-tip {
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #EB5757; }
 
 @media screen and (max-width: 1680px) {
   .callback_form div.wpcf7 form .form_row p {

@@ -25,10 +25,19 @@
       line-height: 24px;
       color: black;
       background: linear-gradient(0deg, rgba(47, 128, 237, 0.05), rgba(47, 128, 237, 0.05)), #FFFFFF;
-      /* Blue 1 */
-      border: 2px solid #2F80ED;
+      border: 2px solid $grey;
       box-sizing: border-box;
       border-radius: 3px;
+
+      &:active {
+        outline: none !important;
+        border: 2px solid #2F80ED;
+      }
+
+      &:focus {
+        outline: none !important;
+        border: 2px solid #2F80ED;
+      }
     }
 
     textarea {
@@ -83,17 +92,28 @@
   }
 }
 
-.light{
+.light {
   background-color: $paleGrey;
   color: $black;
-  div.wpcf7{
-    p.form_notif{
+
+  div.wpcf7 {
+    p.form_notif {
       color: $black;
     }
-    p label{
+
+    p label {
       color: $black;
     }
   }
+}
+
+span.wpcf7-not-valid-tip{
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #EB5757;
 }
 
 @media screen and (max-width: 1680px) {
@@ -132,10 +152,11 @@
 
 @media screen and (max-width: 768px) {
   .callback_form {
-    h2{
+    h2 {
       font-size: 28px;
       line-height: 42px;
     }
+
     div.wpcf7 {
       form .form_row {
         p {
@@ -154,12 +175,15 @@
 @media screen and (max-width: 720px) {
   .callback_form {
     padding: 64px 0;
+
     div.wpcf7 {
       p label:last-child {
         width: 100%;
       }
+
       form .form_row {
         flex-direction: column;
+
         p {
           width: 100%;
           max-width: 100%;
