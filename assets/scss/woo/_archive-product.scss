@@ -1,0 +1,16 @@
+.catalog-section{
+  display: flex;
+  flex-direction: column;
+
+  main{
+    display: flex;
+    aside{
+      section{
+        .product-categories{
+          margin-left: 0;
+
+        }
+      }
+    }
+  }
+}
