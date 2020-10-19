@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d97c8a4e-8a21-49e0-b5e2-2ee470d708f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/head_bear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ic_zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/search-plus-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/zoom_in-24px.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/shopping_cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/8921172f6dafd3cd16d355ae34e07f8533292c19/_catalog.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/8921172f6dafd3cd16d355ae34e07f8533292c19/_shoping-cart.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/woo/_catalog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/woo/_shoping-cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/custom-categories-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/archive-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/content-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/content-product_cat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/global/breadcrumb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/global/form-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/global/quantity-input.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/global/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/global/wrapper-end.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/global/wrapper-start.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/includes/wc_functions_single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/custom-fields-options/theme-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/custom-fields-options/theme-options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/main-page/heading.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/main-page/heading.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/.sass-cache/6538f3c833f97f4debbe83560f50844ad83ca4c4/_breadcrumbs.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/6538f3c833f97f4debbe83560f50844ad83ca4c4/_breadcrumbs.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/.sass-cache/a6a370a65e807da2092b893da6db337f97048ca8/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/a6a370a65e807da2092b893da6db337f97048ca8/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/archive/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/archive/_breadcrumbs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/enqueue-script-style.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/enqueue-script-style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woocommerce/content-single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/content-single-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woocommerce/includes/wc-functions-remove.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/includes/wc-functions-remove.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woocommerce/includes/wc-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/includes/wc-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woocommerce/single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/single-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/single-product/tabs/tabs.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +65,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hWUQCI5A1z8AyuI43VLQng34DX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -171,6 +209,8 @@
       <workItem from="1602774537565" duration="9607000" />
       <workItem from="1602809072460" duration="1042000" />
       <workItem from="1602812223422" duration="823000" />
+      <workItem from="1602858592069" duration="1263000" />
+      <workItem from="1603097733710" duration="5085000" />
     </task>
     <servers />
   </component>
@@ -191,6 +231,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/elseven" />
     </ignored-roots>

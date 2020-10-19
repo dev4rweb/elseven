@@ -7,8 +7,11 @@ function elseven_styles()
 {
     wp_enqueue_style('elseven-style', get_stylesheet_uri(), array(), _S_VERSION);
     //wp_enqueue_style('fontawesome-styles', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), null, 'all');
-    //wp_enqueue_style('main-styles', get_template_directory_uri() . '/assets/css/styles.css', array(), null, 'all');
+    //wp_enqueue_style('font-styles', 'https://fonts.googleapis.com/icon?family=Material+Icons', array(), null, 'all');
     wp_enqueue_style('main-styles', get_template_directory_uri() . '/assets/scss/main.css', array(), null, 'all');
+
+    // remove styles from plugin WooCommerce Quantity Increment
+    wp_dequeue_style( 'wcqib-css' );
 }
 
 add_action('wp_enqueue_scripts', 'elseven_styles');
@@ -26,6 +29,7 @@ function elseven_scripts()
     wp_enqueue_script('elseven-modal-forms', get_template_directory_uri() . '/assets/js/modal_contact_forms7.js', array('jquery'), null, true);
     wp_enqueue_script('elseven-basket', get_template_directory_uri() . '/assets/js/basket.js', array('jquery'), null, true);
     wp_enqueue_script('elseven-slider', get_template_directory_uri() . '/assets/js/swipe-slider.js', array('jquery'), null, true);
+    wp_enqueue_script('elseven-shopping-cart', get_template_directory_uri() . '/assets/js/shopping_cart.js', array('jquery'), null, true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');

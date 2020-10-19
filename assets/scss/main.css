@@ -1567,7 +1567,11 @@ span.wpcf7-not-valid-tip {
     align-items: center; }
     .breadcrumb-single-container .wrapper_archive .breadcrumb {
       display: flex;
-      align-items: center; }
+      align-items: center;
+      /*for woocommerce*/
+      /*      a:nth-of-type(1){
+              display: none;
+            }*/ }
       .breadcrumb-single-container .wrapper_archive .breadcrumb p {
         margin-bottom: 0; }
         .breadcrumb-single-container .wrapper_archive .breadcrumb p img {
@@ -1579,6 +1583,16 @@ span.wpcf7-not-valid-tip {
           margin-right: 6px; }
         .breadcrumb-single-container .wrapper_archive .breadcrumb p span {
           color: #98A0AA; }
+      .breadcrumb-single-container .wrapper_archive .breadcrumb a, .breadcrumb-single-container .wrapper_archive .breadcrumb a:visited {
+        position: relative;
+        font-weight: 500;
+        color: #1F2528;
+        margin-right: 39px; }
+      .breadcrumb-single-container .wrapper_archive .breadcrumb a:after {
+        position: absolute;
+        content: url("../../assets/images/icons/ic15-caret-right.svg");
+        padding-top: 4px;
+        padding-left: 13px; }
 
 @media screen and (max-width: 1200px) {
   .breadcrumb-single-container {
@@ -1823,5 +1837,96 @@ article.category-news {
       .single_news .content_container .entry-content {
         min-width: 100%;
         width: 100%; } }
+.single-section .product {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 128px;
+  justify-content: space-between; }
+  .single-section .product .img-container {
+    width: 373px; }
+    .single-section .product .img-container .images .woocommerce-product-gallery__trigger .emoji {
+      display: none !important; }
+    .single-section .product .img-container .images .woocommerce-product-gallery__trigger {
+      background: url("../images/icons/search-plus-solid.svg") no-repeat !important;
+      -webkit-background-size: 50px;
+      background-size: 40px !important;
+      width: 40px !important;
+      height: 40px !important;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    .single-section .product .img-container .images:hover .woocommerce-product-gallery__trigger {
+      opacity: 1; }
+  .single-section .product .cart-content-container {
+    width: 575px; }
+    .single-section .product .cart-content-container .woocommerce-tabs ul, .single-section .product .cart-content-container .woocommerce-tabs h2 {
+      display: none; }
+
+.categories {
+  padding-bottom: 160px;
+  display: flex;
+  flex-direction: column; }
+  .categories h1 {
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 64px; }
+  .categories ul li {
+    padding: 32px 13px; }
+    .categories ul li a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .categories ul li a img {
+        width: 264px;
+        margin-bottom: 12px; }
+      .categories ul li a .woocommerce-loop-category__title {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        text-align: center; }
+        .categories ul li a .woocommerce-loop-category__title .count {
+          display: none; }
+
+@media screen and (max-width: 1920px) {
+  .categories ul li {
+    width: 232px; } }
+@media screen and (max-width: 1680px) {
+  .categories ul li a img {
+    width: 192px; } }
+@media screen and (max-width: 1440px) {
+  .categories ul li a img {
+    width: 154px; } }
+@media screen and (max-width: 1200px) {
+  .categories {
+    padding-bottom: 130px; }
+    .categories h1 {
+      margin-top: 48px;
+      margin-bottom: 64px; }
+    .categories ul li a img {
+      width: 149px; }
+    .categories ul li a .woocommerce-loop-category__title {
+      font-size: 18px;
+      line-height: 24px; } }
+@media screen and (max-width: 768px) {
+  .categories {
+    padding-bottom: 96px; }
+    .categories h1 {
+      margin-top: 24px;
+      margin-bottom: 32px; }
+    .categories ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      .categories ul li {
+        width: 100% !important; }
+        .categories ul li a img {
+          width: 110px; } }
 
 /*# sourceMappingURL=main.css.map */

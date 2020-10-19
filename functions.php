@@ -62,6 +62,11 @@ require get_template_directory() . '/includes/custom-main-page.php';
 require get_template_directory() . '/includes/custom-about-page.php';
 
 /**
+ * Implement the Custom Categories page feature.
+ */
+require get_template_directory() . '/includes/custom-categories-page.php';
+
+/**
  * Implement the Custom Contacts page feature.
  */
 require get_template_directory() . '/includes/custom-contacts-page.php';
@@ -99,5 +104,6 @@ if (class_exists('WooCommerce')) {
     require get_template_directory() . '/woocommerce/includes/wc-functions.php';
     require get_template_directory() . '/woocommerce/includes/wc-functions-remove.php';
     require get_template_directory() . '/woocommerce/includes/wc_functions_cart.php';
+    require get_template_directory() . '/woocommerce/includes/wc_functions_single.php';
 //    require get_template_directory() . '/woocommerce/cart/mini-cart.php.php';
 }

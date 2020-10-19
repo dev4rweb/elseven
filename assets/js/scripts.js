@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             });
         }
     }
-
+ 
     mediaListener(mediaWidth);
     mediaWidth.addListener(mediaListener);
 });

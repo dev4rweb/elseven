@@ -4,3 +4,5 @@ if (!defined('ABSPATH')) {
 }
 
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
+
+remove_action('woocommerce_sidebar', 'woocommerce_get_sidebar', 10);

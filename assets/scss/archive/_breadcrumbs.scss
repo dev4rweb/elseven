@@ -29,6 +29,24 @@
           color: $grey;
         }
       }
+
+      /*for woocommerce*/
+/*      a:nth-of-type(1){
+        display: none;
+      }*/
+      a, a:visited {
+        position: relative;
+        font-weight: 500;
+        color: $black;
+        margin-right: 39px;
+      }
+
+      a:after{
+        position: absolute;
+        content: url("../../assets/images/icons/ic15-caret-right.svg");
+        padding-top: 4px;
+        padding-left: 13px;
+      }
     }
   }
 }

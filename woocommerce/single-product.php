@@ -57,6 +57,7 @@ get_header( 'shop' ); ?>
 	?>
 
 <?php
+get_template_part('template-parts/form_callback_light');
 get_footer( 'shop' );
 
 /* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
