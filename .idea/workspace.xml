@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d97c8a4e-8a21-49e0-b5e2-2ee470d708f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/8921172f6dafd3cd16d355ae34e07f8533292c19/_archive-product.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/woo/_archive-product.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidebar-shop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/woocommerce/includes/wc-functions-archive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/caret-down-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/caret-right-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/8921172f6dafd3cd16d355ae34e07f8533292c19/_sidebar.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/woo/_sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/.sass-cache/6538f3c833f97f4debbe83560f50844ad83ca4c4/_breadcrumbs.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/6538f3c833f97f4debbe83560f50844ad83ca4c4/_breadcrumbs.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/.sass-cache/8921172f6dafd3cd16d355ae34e07f8533292c19/_archive-product.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/8921172f6dafd3cd16d355ae34e07f8533292c19/_archive-product.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/.sass-cache/a6a370a65e807da2092b893da6db337f97048ca8/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/.sass-cache/a6a370a65e807da2092b893da6db337f97048ca8/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/archive/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/archive/_breadcrumbs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/widget-areas.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/widget-areas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woocommerce/includes/wc-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/includes/wc-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woocommerce/includes/wc_functions_single.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/includes/wc_functions_single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/woo/_archive-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/woo/_archive-product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/enqueue-script-style.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/enqueue-script-style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woocommerce/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/archive-product.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,19 +61,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\images\icons" />
-      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\woocommerce" />
-      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\fonts\font-awesome" />
-      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\css" />
-      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\includes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\images\icons" />
       <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\images" />
       <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\scss\header" />
       <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\scss\main_page" />
       <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\woocommerce" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\images\icons" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\woocommerce" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\fonts\font-awesome" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\assets\css" />
+      <recent name="D:\OpenServer\domains\elseven\wp-content\themes\elseven\includes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,7 +188,8 @@
       <workItem from="1602812223422" duration="823000" />
       <workItem from="1602858592069" duration="1263000" />
       <workItem from="1603097733710" duration="6020000" />
-      <workItem from="1603110857735" duration="8497000" />
+      <workItem from="1603110857735" duration="8917000" />
+      <workItem from="1603177404704" duration="13152000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,8 @@ function elseven_styles()
 {
     wp_enqueue_style('elseven-style', get_stylesheet_uri(), array(), _S_VERSION);
     //wp_enqueue_style('fontawesome-styles', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), null, 'all');
-    //wp_enqueue_style('font-styles', 'https://fonts.googleapis.com/icon?family=Material+Icons', array(), null, 'all');
+    //wp_enqueue_style('google-font-styles', 'https://fonts.googleapis.com/icon?family=Material+Icons', array(), null, 'all');
+    //wp_enqueue_style('font-awesome-styles', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array(), null, 'all');
     wp_enqueue_style('main-styles', get_template_directory_uri() . '/assets/scss/main.css', array(), null, 'all');
 
     // remove styles from plugin WooCommerce Quantity Increment

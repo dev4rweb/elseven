@@ -30,6 +30,7 @@ do_action( 'woocommerce_before_main_content' );
 
 ?>
 <header class="woocommerce-products-header">
+    <?php echo (woocommerce_taxonomy_archive_description()); ?>
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 	<?php endif; ?>
@@ -101,5 +102,7 @@ do_action( 'woocommerce_after_main_content' );
  * @hooked woocommerce_get_sidebar - 10
  */
 do_action( 'woocommerce_sidebar' );
+
+get_template_part('template-parts/form_callback_light');
 
 get_footer( 'shop' );

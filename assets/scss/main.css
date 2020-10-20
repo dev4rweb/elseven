@@ -1568,6 +1568,12 @@ span.wpcf7-not-valid-tip {
     .breadcrumb-single-container .wrapper_archive .breadcrumb {
       display: flex;
       align-items: center;
+      color: #98A0AA;
+      font-family: Roboto, serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
       /*for woocommerce*/
       /*      a:nth-of-type(1){
               display: none;
@@ -1933,7 +1939,83 @@ article.category-news {
   flex-direction: column; }
   .catalog-section main {
     display: flex; }
-    .catalog-section main aside section .product-categories {
+
+aside {
+  margin-top: 32px; }
+  aside section .product-categories {
+    margin-left: 0; }
+    aside section .product-categories ul:first-child {
       margin-left: 0; }
+    aside section .product-categories li {
+      margin-bottom: 4px; }
+    aside section .product-categories .cat-item a {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-family: Ubuntu, serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 9px 12px;
+      background-color: #1F2528;
+      color: #ffffff;
+      width: 238px;
+      height: 42px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+      aside section .product-categories .cat-item a:hover {
+        background-color: #232731;
+        opacity: 0.7; }
+    aside section .product-categories .cat-item .children a {
+      background-color: #ffffff;
+      color: #1F2528; }
+      aside section .product-categories .cat-item .children a:after {
+        content: ""; }
+      aside section .product-categories .cat-item .children a:hover:after {
+        content: ""; }
+      aside section .product-categories .cat-item .children a:hover {
+        opacity: 0.45; }
+    aside section .product-categories .current-cat a {
+      background-color: #2F80ED; }
+    aside section .product-categories .cat-parent:hover .children {
+      height: auto; }
+    aside section .product-categories .cat-parent .children li a {
+      content: ''; }
+    aside section .product-categories .cat-parent a:after {
+      content: url("../images/icons/caret-right-solid.svg");
+      font-size: 16px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    aside section .product-categories .cat-parent a:hover:after {
+      content: url("../images/icons/caret-down-solid.svg"); }
+    aside section .product-categories .children {
+      height: 0;
+      overflow-y: hidden;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    aside section .product-categories .current-cat.cat-parent .children {
+      height: auto; }
+    aside section .product-categories .current-cat.cat-parent > a:after {
+      content: url("../images/icons/caret-down-solid.svg"); }
+    aside section .product-categories .current-cat-parent .children {
+      height: auto; }
+      aside section .product-categories .current-cat-parent .children .current-cat > a {
+        color: #2F80ED; }
+    aside section .product-categories .current-cat-parent > a {
+      background-color: #2F80ED; }
+      aside section .product-categories .current-cat-parent > a:after {
+        content: url("../images/icons/caret-down-solid.svg"); }
 
 /*# sourceMappingURL=main.css.map */

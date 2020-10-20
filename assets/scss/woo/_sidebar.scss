@@ -1,0 +1,127 @@
+aside {
+  margin-top: 32px;
+
+  section {
+    .product-categories {
+      margin-left: 0;
+
+      ul:first-child {
+        margin-left: 0;
+      }
+
+      li {
+        margin-bottom: 4px;
+      }
+
+      .cat-item {
+        a {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          font-family: $fontUbuntu;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          padding: 9px 12px;
+          background-color: $black;
+          color: $white;
+          width: 238px;
+          height: 42px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          @include btn-link-transition;
+
+          &:hover {
+            background-color: $darkBlue;
+            opacity: 0.7;
+          }
+        }
+
+        .children {
+          a {
+            background-color: $white;
+            color: $black;
+
+            &:after {
+              content: "";
+            }
+
+            &:hover:after {
+              content: "";
+            }
+
+            &:hover {
+              opacity: 0.45;
+            }
+          }
+        }
+      }
+
+      .current-cat {
+        a {
+          background-color: $blue;
+        }
+      }
+
+      .cat-parent {
+
+        &:hover .children {
+          height: auto;
+        }
+
+        .children li a {
+          content: '';
+        }
+      }
+
+      .cat-parent a {
+        &:after {
+          content: url("../images/icons/caret-right-solid.svg");
+          font-size: 16px;
+          @include btn-link-transition;
+        }
+
+        &:hover:after {
+          content: url("../images/icons/caret-down-solid.svg");
+        }
+      }
+
+      .children {
+        height: 0;
+        overflow-y: hidden;
+        @include btn-link-transition;
+      }
+
+      .current-cat.cat-parent {
+        .children {
+          height: auto;
+        }
+      }
+
+      .current-cat.cat-parent > a {
+        &:after {
+          content: url("../images/icons/caret-down-solid.svg");
+        }
+      }
+
+      .current-cat-parent {
+        .children {
+          height: auto;
+
+          .current-cat > a {
+            color: $blue;
+          }
+        }
+      }
+
+      .current-cat-parent > a {
+        background-color: $blue;
+
+        &:after {
+          content: url("../images/icons/caret-down-solid.svg");
+        }
+      }
+    }
+  }
+}
