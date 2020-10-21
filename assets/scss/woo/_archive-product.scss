@@ -5,6 +5,17 @@
   main {
     display: flex;
 
+    .single-section {
+      display: flex;
+      flex-direction: column;
+      margin-left: 57px;
 
+      .product {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
   }
 }

@@ -1,0 +1,52 @@
+.woocommerce-pagination {
+  display: flex;
+  justify-content: center;
+
+  ul.page-numbers {
+    display: flex;
+    margin-left: 0;
+
+    li {
+      margin-right: 12px;
+      margin-left: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      span.page-numbers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+        width: 32px;
+        height: 32px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+      }
+
+      span.page-numbers.current {
+        background-color: $blue;
+        color: $white;
+      }
+
+      a{
+        line-height: 20px;
+      }
+
+      a, a:visited{
+        color: $black;
+      }
+
+      a:hover{
+        color: $blue;
+      }
+
+      a.next.page-numbers{
+        content: "sadfas"!important;
+      }
+    }
+
+  }
+}

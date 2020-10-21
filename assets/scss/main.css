@@ -1939,6 +1939,15 @@ article.category-news {
   flex-direction: column; }
   .catalog-section main {
     display: flex; }
+    .catalog-section main .single-section {
+      display: flex;
+      flex-direction: column;
+      margin-left: 57px; }
+      .catalog-section main .single-section .product {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0; }
 
 aside {
   margin-top: 32px; }
@@ -2017,5 +2026,58 @@ aside {
       background-color: #2F80ED; }
       aside section .product-categories .current-cat-parent > a:after {
         content: url("../images/icons/caret-down-solid.svg"); }
+
+.woocommerce-pagination {
+  display: flex;
+  justify-content: center; }
+  .woocommerce-pagination ul.page-numbers {
+    display: flex;
+    margin-left: 0; }
+    .woocommerce-pagination ul.page-numbers li {
+      margin-right: 12px;
+      margin-left: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .woocommerce-pagination ul.page-numbers li span.page-numbers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+        width: 32px;
+        height: 32px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+      .woocommerce-pagination ul.page-numbers li span.page-numbers.current {
+        background-color: #2F80ED;
+        color: #ffffff; }
+      .woocommerce-pagination ul.page-numbers li a {
+        line-height: 20px; }
+      .woocommerce-pagination ul.page-numbers li a, .woocommerce-pagination ul.page-numbers li a:visited {
+        color: #1F2528; }
+      .woocommerce-pagination ul.page-numbers li a:hover {
+        color: #2F80ED; }
+      .woocommerce-pagination ul.page-numbers li a.next.page-numbers {
+        content: "sadfas" !important; }
+
+span.onsale {
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #1F2528;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #FBDA75;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0 3px 20px -3px rgba(46, 51, 63, 0.55); }
 
 /*# sourceMappingURL=main.css.map */
