@@ -31,10 +31,12 @@ function elseven_scripts()
     wp_enqueue_script('elseven-basket', get_template_directory_uri() . '/assets/js/basket.js', array('jquery'), null, true);
     wp_enqueue_script('elseven-slider', get_template_directory_uri() . '/assets/js/swipe-slider.js', array('jquery'), null, true);
     wp_enqueue_script('elseven-shopping-cart', get_template_directory_uri() . '/assets/js/shopping_cart.js', array('jquery'), null, true);
+    wp_enqueue_script('elseven-price-filter', get_template_directory_uri() . '/assets/js/content-widget-price-filter.js', array('jquery'), null, true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }
-}
 
-add_action('wp_enqueue_scripts', 'elseven_scripts');
+
+}
+add_action('wp_enqueue_scripts', 'elseven_scripts', 10);

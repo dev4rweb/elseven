@@ -26,10 +26,6 @@ require get_template_directory() . '/includes/theme-settings.php';
  */
 require get_template_directory() . '/includes/widget-areas.php';
 
-/*
- * Подключение скриптов и стилей
- */
-require get_template_directory() . '/includes/enqueue-script-style.php';
 
 /*
  * Вспомогательные функции
@@ -109,3 +105,9 @@ if (class_exists('WooCommerce')) {
     require get_template_directory() . '/woocommerce/includes/wc-functions-content-product.php';
 //    require get_template_directory() . '/woocommerce/cart/mini-cart.php.php';
 }
+
+
+/*
+ * Подключение скриптов и стилей
+ */
+require get_template_directory() . '/includes/enqueue-script-style.php';

@@ -1,0 +1,115 @@
+.widget_price_filter {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    a {
+      margin-left: 12px;
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      &:after {
+        position: relative;
+        margin-top: 5px;
+        margin-left: 13px;
+        content: url("../../assets/images/icons/down-small.svg");
+      }
+    }
+
+    a.active {
+      &:after {
+        content: url("../../assets/images/icons/ic15-caret-up.svg");
+      }
+    }
+  }
+
+  form {
+    display: none;
+    width: 241px;
+    height: 159px;
+    top: 20px;
+    position: absolute;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    z-index: 1;
+    background-color: $white;
+
+    .price_slider_wrapper {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .filter-price_inputs {
+        margin-bottom: 29px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        input {
+          width: 85px;
+          height: 42px;
+          padding: 9px 30px;
+          border: 1px solid $grey;
+          box-sizing: border-box;
+          border-radius: 3px;
+        }
+
+        /* Для Chrome */
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          margin: 0;
+        }
+
+        /* Для Firefox */
+        input[type=number] {
+          -moz-appearance: textfield;
+        }
+      }
+
+      .price_label {
+        span {
+          display: inline-block;
+          width: 48%;
+        }
+
+        span.from {
+          padding-left: 13px;
+        }
+
+        span.to {
+          text-align: right;
+        }
+      }
+
+      .price_slider {
+        width: 100%;
+
+        .price_slider_amount {
+
+        }
+      }
+
+      .button {
+        margin-top: 5px;
+      }
+    }
+  }
+}

@@ -2080,4 +2080,99 @@ span.onsale {
   border-radius: 50%;
   box-shadow: 0 3px 20px -3px rgba(46, 51, 63, 0.55); }
 
+ul.products.columns-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 64px; }
+  ul.products.columns-4 li.product {
+    width: 100% !important;
+    position: relative; }
+    ul.products.columns-4 li.product a.woocommerce-loop-product__link span.onsale {
+      position: absolute;
+      top: 4px;
+      right: 4px; }
+    ul.products.columns-4 li.product a.woocommerce-loop-product__link img.attachment-woocommerce_thumbnail {
+      width: 100%; }
+    ul.products.columns-4 li.product a.woocommerce-loop-product__link h2.woocommerce-loop-product__title {
+      font-size: 20px;
+      line-height: 30px;
+      color: #1F2528;
+      margin-top: 16px; }
+
+.widget_price_filter {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .widget_price_filter p {
+    display: flex;
+    align-items: center;
+    cursor: pointer; }
+    .widget_price_filter p a {
+      margin-left: 12px;
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      align-items: center; }
+      .widget_price_filter p a:after {
+        position: relative;
+        margin-top: 5px;
+        margin-left: 13px;
+        content: url("../../assets/images/icons/down-small.svg"); }
+    .widget_price_filter p a.active:after {
+      content: url("../../assets/images/icons/ic15-caret-up.svg"); }
+  .widget_price_filter form {
+    display: none;
+    width: 241px;
+    height: 159px;
+    top: 20px;
+    position: absolute;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    z-index: 1;
+    background-color: #ffffff; }
+    .widget_price_filter form .price_slider_wrapper {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .widget_price_filter form .price_slider_wrapper .filter-price_inputs {
+        margin-bottom: 29px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* Для Chrome */
+        /* Для Firefox */ }
+        .widget_price_filter form .price_slider_wrapper .filter-price_inputs p {
+          margin-bottom: 0; }
+        .widget_price_filter form .price_slider_wrapper .filter-price_inputs input {
+          width: 85px;
+          height: 42px;
+          padding: 9px 30px;
+          border: 1px solid #98A0AA;
+          box-sizing: border-box;
+          border-radius: 3px; }
+        .widget_price_filter form .price_slider_wrapper .filter-price_inputs input[type=number]::-webkit-inner-spin-button,
+        .widget_price_filter form .price_slider_wrapper .filter-price_inputs input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          margin: 0; }
+        .widget_price_filter form .price_slider_wrapper .filter-price_inputs input[type=number] {
+          -moz-appearance: textfield; }
+      .widget_price_filter form .price_slider_wrapper .price_label span {
+        display: inline-block;
+        width: 48%; }
+      .widget_price_filter form .price_slider_wrapper .price_label span.from {
+        padding-left: 13px; }
+      .widget_price_filter form .price_slider_wrapper .price_label span.to {
+        text-align: right; }
+      .widget_price_filter form .price_slider_wrapper .price_slider {
+        width: 100%; }
+      .widget_price_filter form .price_slider_wrapper .button {
+        margin-top: 5px; }
+
 /*# sourceMappingURL=main.css.map */
