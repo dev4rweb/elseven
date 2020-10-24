@@ -125,3 +125,38 @@ aside {
     }
   }
 }
+
+@media screen and (max-width: 1440px){
+  aside {
+    section{
+      .product-categories{
+        .cat-item{
+          a{
+            width: 192px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+  aside {
+    section{
+      .product-categories{
+        .cat-item{
+          a{
+            width: 214px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  aside {
+    display: none;
+  }
+}

@@ -17,3 +17,13 @@
 
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * Get SKU of product if it present
+ */
+add_action('woocommerce_after_shop_loop_item_title', 'woocommerce_after_shop_loop_item_sku_in_cart', 7, 1);
+function woocommerce_after_shop_loop_item_sku_in_cart($template)
+{
+    global $product;
+    $sku = $product->get_sku();
+    echo "<span class='product-sku'>" . $sku . "</span>";
+}

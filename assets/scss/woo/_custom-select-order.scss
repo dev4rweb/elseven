@@ -1,0 +1,82 @@
+.woocommerce-ordering {
+  position: relative;
+  border: none;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  //width: 215px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  select.orderby {
+    display: none;
+  }
+
+
+  .select-selected.select-arrow-active,
+  .select-selected {
+    color: $blue;
+    width: 100%;
+    display: flex;
+  }
+
+  .select-selected:hover {
+    cursor: pointer;
+  }
+
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 9px;
+    right: -25px!important;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: $blue transparent transparent transparent;
+  }
+
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent $blue transparent;
+    top: 3px;
+  }
+
+  /*style the items (options), including the selected item:*/
+  .select-items div {
+    color: $black;
+    padding: 6px 0;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: $white;
+    top: 100%;
+    left: -110px;
+    right: -30;
+    z-index: 99;
+    padding: 24px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    @include btn-link-transition;
+  }
+
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    //display: none;
+    height: 0;
+    overflow-y: hidden;
+    padding: 0;
+    @include btn-link-transition;
+  }
+
+  .select-items div:hover, .same-as-selected {
+    color: $blue;
+  }
+}

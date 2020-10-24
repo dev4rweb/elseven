@@ -21,13 +21,53 @@ function elseven_wrapper_archive_product_end()
     <?php
 }
 
+/**
+ * wrapper in  woocommerce/includes/archive-product.php for
+ */
+add_action('woocommerce_before_shop_loop', 'header_wrapper_archive_product_start', 15);
+function header_wrapper_archive_product_start()
+{
+    ?>
+    <div class="header_wrapper_archive">
+    <?php
+}
+
+add_action('woocommerce_before_shop_loop', 'header_wrapper_archive_product_end', 50);
+function header_wrapper_archive_product_end()
+{
+    ?>
+    </div>
+    <?php
+}
+
 remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
-remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
+add_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 40);
+//remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
+
+/**
+ * wrap .woocommerce-ordering for label in  woocommerce/includes/archive-product.php for
+ */
+add_action('woocommerce_before_shop_loop', 'header_wrapper_woo_ordering_archive_product_start', 25);
+function header_wrapper_woo_ordering_archive_product_start()
+{
+    ?>
+    <div class="wrap_woo_ordering">
+    <span>Сортировка: </span>
+    <?php
+}
+
+add_action('woocommerce_before_shop_loop', 'header_wrapper_woo_ordering_archive_product_end', 35);
+function header_wrapper_woo_ordering_archive_product_end()
+{
+    ?>
+    </div>
+    <?php
+}
 
 /**
  * Add sidebar-widget for filter by price in  woocommerce/includes/archive-product.php for
  */
-add_action('woocommerce_before_shop_loop', 'filtering_by_price', 40);
+add_action('woocommerce_before_shop_loop', 'filtering_by_price', 20);
 function filtering_by_price()
 {
     if (is_active_sidebar('filter-price')) :
@@ -44,4 +84,20 @@ function change_step_filter_price($step)
     $step = 1;
 
     return $step;
+}
+
+/**
+ * Change order by in selects in head
+ */
+add_filter('woocommerce_catalog_orderby', 'catalog_ordering_own_args');
+function catalog_ordering_own_args($args)
+{
+    $args = array(
+        'menu_order' => __('По алфавиту', 'woocommerce'),
+        'popularity' => __( 'По популярности', 'woocommerce' ),
+        'price'      => __( 'По увеличению цены', 'woocommerce' ),
+        'price-desc' => __( 'По уменьшению цены', 'woocommerce' ),
+        'date'       => __( 'По обновлению', 'woocommerce' ),
+    );
+    return $args;
 }

@@ -70,9 +70,9 @@ $phone: 768px;
 }
 
 @mixin btn-link-transition($prop: all, $duration: .3s) {
-  -webkit-transition: $prop $duration;
-  -moz-transition: $prop $duration;
-  -ms-transition: $prop $duration;
-  -o-transition: $prop $duration;
-  transition: $prop $duration;
+  -webkit-transition: $prop $duration linear;
+  -moz-transition: $prop $duration linear;
+  -ms-transition: $prop $duration linear;
+  -o-transition: $prop $duration linear;
+  transition: $prop $duration linear;
 }

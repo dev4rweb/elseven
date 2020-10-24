@@ -1,6 +1,6 @@
 jQuery(function ($) {
     $("#priceFilterToggle").click(function () {
-        $('#priceFilterModal').slideToggle(500);
+        $('#priceFilterModal').slideToggle(300);
         $('p .btn-empty').toggleClass('active');
     });
 

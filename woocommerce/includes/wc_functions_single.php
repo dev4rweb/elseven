@@ -22,7 +22,7 @@ add_action('woocommerce_before_main_content', 'elseven_wrapper_product_start', 4
 function elseven_wrapper_product_start()
 {
     ?>
-    <section class="single-section wrapper_archive">
+    <section class="single-section">
     <?php
 }
 
