@@ -100,9 +100,10 @@ if (class_exists('WooCommerce')) {
     require get_template_directory() . '/woocommerce/includes/wc-functions.php';
     require get_template_directory() . '/woocommerce/includes/wc-functions-remove.php';
     require get_template_directory() . '/woocommerce/includes/wc_functions_cart.php';
-    require get_template_directory() . '/woocommerce/includes/wc_functions_single.php';
+    require get_template_directory() . '/woocommerce/includes/wc_functions_single_product.php';
     require get_template_directory() . '/woocommerce/includes/wc-functions-archive.php';
     require get_template_directory() . '/woocommerce/includes/wc-functions-content-product.php';
+    require get_template_directory() . '/woocommerce/includes/wc-content-single-product.php';
 //    require get_template_directory() . '/woocommerce/cart/mini-cart.php.php';
 }
 

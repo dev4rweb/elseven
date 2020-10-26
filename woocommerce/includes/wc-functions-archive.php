@@ -87,7 +87,7 @@ function change_step_filter_price($step)
 }
 
 /**
- * Change order by in selects in head
+ * Change order by... in selects in head
  */
 add_filter('woocommerce_catalog_orderby', 'catalog_ordering_own_args');
 function catalog_ordering_own_args($args)
