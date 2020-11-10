@@ -191,7 +191,7 @@ a.btn_black {
 .search {
   position: relative; }
   .search .search-button {
-    background-image: url(../../assets/images/icons/search.svg);
+    background-image: url(../images/icons/search.svg);
     -webkit-background-size: 20px 20px;
     background-size: 20px 20px;
     width: 20px;
@@ -199,7 +199,7 @@ a.btn_black {
     border: none;
     outline: none; }
     .search .search-button:hover {
-      background-image: url(../../assets/images/icons/search_hover.svg);
+      background-image: url(../images/icons/search_hover.svg);
       cursor: pointer; }
   .search .search-form {
     position: absolute;
@@ -241,7 +241,7 @@ a.btn_black {
         border-radius: 3px;
         cursor: pointer; }
       .search .search-form form span.close {
-        background-image: url(../../assets/images/icons/close.svg);
+        background-image: url(../images/icons/close.svg);
         -webkit-background-size: 14px;
         background-size: 14px;
         width: 14px;
@@ -249,7 +249,7 @@ a.btn_black {
         margin-left: 21px;
         cursor: pointer; }
         .search .search-form form span.close:hover {
-          background-image: url(../../assets/images/icons/close_hover.svg); }
+          background-image: url(../images/icons/close_hover.svg); }
     .search .search-form .title-search {
       padding: 9px 12px;
       height: 42px;
@@ -424,7 +424,7 @@ a.btn_black {
   top: 25px;
   right: 25px;
   float: right;
-  background-image: url(../../assets/images/icons/close.svg);
+  background-image: url(../images/icons/close.svg);
   -webkit-background-size: 14px;
   background-size: 14px;
   width: 14px;
@@ -432,7 +432,7 @@ a.btn_black {
   margin-left: 21px;
   cursor: pointer; }
   .close-modal-callback:hover {
-    background-image: url(../../assets/images/icons/close_hover.svg); }
+    background-image: url(../images/icons/close_hover.svg); }
 
 .close:hover,
 .close:focus {
@@ -580,7 +580,7 @@ a.btn_black {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear; }
   .basket_box .basket {
-    background: url("../../assets/images/icons/basket.svg") no-repeat center;
+    background: url("../images/icons/basket.svg") no-repeat center;
     background-size: 20px 20px;
     width: 20px;
     height: 20px; }
@@ -605,7 +605,7 @@ a.btn_black {
   .basket_box:hover {
     cursor: pointer; }
     .basket_box:hover .basket {
-      background: url(../../assets/images/icons/basket_hover.svg) no-repeat center; }
+      background: url(../images/icons/basket_hover.svg) no-repeat center; }
     .basket_box:hover .badge {
       background-color: #2F80ED;
       color: #ffffff; }
@@ -635,7 +635,7 @@ a.btn_black {
   .widget_shopping_cart_content ul li {
     display: flex; }
     .widget_shopping_cart_content ul li a.remove_from_cart_button {
-      background: url(../../assets/images/icons/trashcan.svg);
+      background: url(../images/icons/trashcan.svg);
       width: 24px;
       height: 24px;
       -webkit-background-size: 24px 24px;
@@ -674,7 +674,7 @@ a.btn_black {
     top: 18px;
     right: 30px;
     float: right;
-    background-image: url(../../assets/images/icons/close_white.svg);
+    background-image: url(../images/icons/close_white.svg);
     -webkit-background-size: 14px;
     background-size: 14px;
     width: 14px;
@@ -685,7 +685,7 @@ a.btn_black {
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear; }
     .nav .menu-icon-close:hover, .nav .menu-icon-close:active {
-      background-image: url(../../assets/images/icons/close_hover.svg); }
+      background-image: url(../images/icons/close_hover.svg); }
   .nav ul {
     display: flex;
     height: 100%;
@@ -870,7 +870,7 @@ footer {
     color: #219653;
     white-space: nowrap; }
     .heading .container p:before {
-      content: url(../../assets/images/icons/ic16-check-circle.svg);
+      content: url(../images/icons/ic16-check-circle.svg);
       margin-right: 10px;
       margin-top: 7px; }
   .heading .container p:not(:last-child) {
@@ -1596,7 +1596,7 @@ span.wpcf7-not-valid-tip {
         margin-right: 39px; }
       .breadcrumb-single-container .wrapper_archive .breadcrumb a:after {
         position: absolute;
-        content: url("../../assets/images/icons/ic15-caret-right.svg");
+        content: url("../images/icons/ic15-caret-right.svg");
         padding-top: 4px;
         padding-left: 13px; }
 
@@ -2214,9 +2214,9 @@ ul.products.columns-4 {
         position: relative;
         margin-top: 5px;
         margin-left: 13px;
-        content: url("../../assets/images/icons/down-small.svg"); }
+        content: url("../images/icons/down-small.svg"); }
     .widget_price_filter p a.active:after {
-      content: url("../../assets/images/icons/ic15-caret-up.svg"); }
+      content: url("../images/icons/ic15-caret-up.svg"); }
   .widget_price_filter form {
     display: none;
     width: 241px;

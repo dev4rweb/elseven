@@ -13,7 +13,7 @@
     "js:boot": "npm run bundler -- --config webpack.boot.js",
     "js": "run-s js:vendor js:core js:boot",
     "js:dev": "run-s js:vendor \"js:core -- -w\"",
-    "css": "postcss ./assets/css/main.css -o ./assets/dist/carbon.css",
+    "css": "postcss assets/css/main.css -o ./assets/dist/carbon.css",
     "css:dev": "npm run css -- -w",
     "dev": "cross-env NODE_ENV=development run-p -l -s css:dev js:dev",
     "build": "run-s -l -s css js && cross-env NODE_ENV=production run-s -l -s css js",

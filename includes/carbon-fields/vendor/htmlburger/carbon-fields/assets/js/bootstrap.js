@@ -13,17 +13,17 @@ import {
 	registerSaga,
 	getSagas,
 	registerFieldValidator
-} from 'lib/registry';
+} from 'wp-content/themes/elseven/includes/carbon-fields/vendor/htmlburger/carbon-fields/assets/js/lib/registry';
 
-import { autoload, patchTagBoxAPI } from 'lib/helpers';
-import { ready } from 'lib/actions';
+import { autoload, patchTagBoxAPI } from 'wp-content/themes/elseven/includes/carbon-fields/vendor/htmlburger/carbon-fields/assets/js/lib/helpers';
+import { ready } from 'wp-content/themes/elseven/includes/carbon-fields/vendor/htmlburger/carbon-fields/assets/js/lib/actions';
 
-import configureStore from 'store';
-import { normalizePreloadedState } from 'store/helpers';
+import configureStore from 'wp-content/themes/elseven/includes/carbon-fields/vendor/htmlburger/carbon-fields/assets/js/store';
+import { normalizePreloadedState } from 'wp-content/themes/elseven/includes/carbon-fields/vendor/htmlburger/carbon-fields/assets/js/store/helpers';
 
-import containerFactory from 'containers/factory';
-import { getContainers } from 'containers/selectors';
-import api from 'lib/api';
+import containerFactory from 'wp-content/themes/elseven/includes/carbon-fields/vendor/htmlburger/carbon-fields/assets/js/containers/factory';
+import { getContainers } from 'wp-content/themes/elseven/includes/carbon-fields/vendor/htmlburger/carbon-fields/assets/js/containers/selectors';
+import api from 'wp-content/themes/elseven/includes/carbon-fields/vendor/htmlburger/carbon-fields/assets/js/lib/api';
 
 /**
  * Put Lodash in `noConflict` mode to avoid conflicts with Underscore lib
